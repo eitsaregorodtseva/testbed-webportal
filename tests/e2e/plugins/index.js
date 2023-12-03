@@ -40,7 +40,7 @@ module.exports = (on, config) => {
     env: {
       IOTLAB_WEBPORTAL_PASSWD: process.env.IOTLAB_WEBPORTAL_PASSWD,
       VUE_APP_IOTLAB_HOST: process.env.VUE_APP_IOTLAB_HOST,
-      APP_ROOT: process.env.VUE_APP_IOTLAB_PATH || '/',
+      APP_ROOT: '/',
     },
   })
 }
